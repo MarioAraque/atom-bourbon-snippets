@@ -1,4 +1,4 @@
 'source.scss, source.sass':
   'Animation':
     'prefix': 'ani'
-    'body': '@include animation(${1:value})$0'
+    'body': '@include animation(${1:value});$0'
