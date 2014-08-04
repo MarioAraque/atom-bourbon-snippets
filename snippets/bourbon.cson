@@ -1,4 +1,22 @@
 '.source.scss, .source.sass':
   'Animation':
     'prefix': 'ani'
-    'body': '@include animation(${1:value});$0'
+    'body': '@include animation(${1:animation});$0'
+  'Animation delay':
+    'prefix': 'anide'
+    'body': '@include animation-delay(${1:delay});$0'
+  'Animation direction':
+    'prefix': 'anidi'
+    'body': '@include animation-direction(${1:direction});$0'
+  'Animation duration':
+    'prefix': 'anidu'
+    'body': '@include animation-duration(${1:duration});$0'
+  'Animation fill mode':
+    'prefix': 'anifm'
+    'body': '@include animation-fill-mode(${1:fill-mode});$0'
+  'Animation iteration count':
+    'prefix': 'anid'
+    'body': '@include animation-iteration-count(${1:iteration-count});$0'
+  'Animation name':
+    'prefix': 'anid'
+    'body': '@include animation-name(${1:scale}, ${2:slide});$0'
