@@ -2,10 +2,6 @@
 
 module.exports =
 class AtomBourbonSnippetsView extends View
-  @content: ->
-    @div class: 'bourbon overlay from-top', =>
-      @div "The Bourbon package is Alive! It's ALIVE!", class: "message"
-
   initialize: (serializeState) ->
     atom.workspaceView.command "atom-bourbon-snippets:toggle", => @toggle()
 
