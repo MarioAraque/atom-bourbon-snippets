@@ -7,7 +7,7 @@ class AtomBourbonSnippetsView extends View
       @div "The Bourbon package is Alive! It's ALIVE!", class: "message"
 
   initialize: (serializeState) ->
-    atom.workspaceView.command "compass:toggle", => @toggle()
+    atom.workspaceView.command "atom-bourbon-snippets:toggle", => @toggle()
 
   # Returns an object that can be retrieved when package is activated
   serialize: ->
