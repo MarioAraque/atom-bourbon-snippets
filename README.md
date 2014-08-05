@@ -1,6 +1,6 @@
 # Bourbon framework snippets for Atom Editor
 
-Bourbon snippets to maker development faster in Atom.
+Bourbon snippets to make development faster in Atom.
 
 # Examples
 
