@@ -87,11 +87,6 @@ marg
 @include border-image();
 ```
 
-### [bs] Box sizing
-```
-@include box-sizing();
-```
-
 ### [calc] Calc
 ```
 @include calc();
@@ -147,6 +142,26 @@ marg
 ### [radg] Radial gradient
 ```
 @include radial-gradient();
+```
+
+### [tdc] Text decoration
+```
+@include text-decoration();
+```
+
+### [tdcl] Text decoration line
+```
+@include text-decoration-line();
+```
+
+### [tdcs] Text decoration style
+```
+@include text-decoration-style();
+```
+
+### [tdcc] Text decoration color
+```
+@include text-decoration-color();
 ```
 
 ### [transf] Transform
