@@ -41,9 +41,6 @@
   'Border image':
     'prefix': 'boi'
     'body': '@include border-image(${1:border-image-value});$0'
-  'Box sizing':
-    'prefix': 'bs'
-    'body': '@include box-sizing(${1:border-box});$0'
   'Calc':
     'prefix': 'calc'
     'body': '@include calc(${1:width}, ${2:value});$0'
@@ -81,6 +78,18 @@
   'Radial gradient':
     'prefix': 'radg'
     'body': '@include radial-gradient(${1:value});$0'
+  'Text decoration':
+    'prefix': 'tdc'
+    'body': '@include text-decoration(${1:value});$0'
+  'Text decoration line':
+    'prefix': 'tdcl'
+    'body': '@include text-decoration-line(${1:value});$0'
+  'Text decoration style':
+    'prefix': 'tdcs'
+    'body': '@include text-decoration-style(${1:value});$0'
+  'Text decoration color':
+    'prefix': 'tdcc'
+    'body': '@include text-decoration-color(${1:value});$0'
   'Transform':
     'prefix': 'transf'
     'body': '@include transform(${1:value});$0'
