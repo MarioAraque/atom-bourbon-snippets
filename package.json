@@ -1,12 +1,14 @@
 {
   "name": "atom-bourbon-snippets",
   "main": "./lib/atom-bourbon-snippets",
-  "version": "0.12.2",
+  "version": "0.12.3",
   "description": "Bourbon snippets",
   "repository": "https://github.com/MarioAraque/atom-bourbon-snippets.git",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3"
+  }
 }
