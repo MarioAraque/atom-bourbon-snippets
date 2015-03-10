@@ -1,7 +1,7 @@
 {
   "name": "atom-bourbon-snippets",
   "main": "./lib/atom-bourbon-snippets",
-  "version": "0.10.2",
+  "version": "0.10.3",
   "description": "Bourbon snippets",
   "repository": "https://github.com/MarioAraque/atom-bourbon-snippets.git",
   "license": "MIT",
