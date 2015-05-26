@@ -3,6 +3,7 @@
 module.exports =
 class AtomBourbonSnippetsView extends View
   initialize: (serializeState) ->
+    atom.workspaceView.command "atom-bourbon-snippets:toggle", => @toggle()
 
   # Returns an object that can be retrieved when package is activated
   serialize: ->
