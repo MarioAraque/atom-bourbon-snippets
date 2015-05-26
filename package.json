@@ -5,9 +5,6 @@
   "description": "Bourbon snippets",
   "repository": "https://github.com/MarioAraque/atom-bourbon-snippets.git",
   "license": "MIT",
-  "activationCommands": [
-    "atom-bourbon-snippets:toggle"
-  ],
   "engines": {
     "atom": "*",
     "node": "*"
