@@ -1,13 +1,13 @@
 {
   "name": "atom-bourbon-snippets",
   "main": "./lib/atom-bourbon-snippets",
-  "version": "0.14.1",
+  "version": "0.14.2",
   "description": "Bourbon snippets",
   "repository": "https://github.com/MarioAraque/atom-bourbon-snippets.git",
   "license": "MIT",
   "activationEvents": [
-     "atom-bourbon-snippets:toggle"
-   ],
+    "atom-bourbon-snippets:toggle"
+  ],
   "engines": {
     "atom": "*",
     "node": "*"
